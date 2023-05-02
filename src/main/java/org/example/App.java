@@ -16,8 +16,13 @@ public class App
         //HiberbernateConfig.getEntityManager();
 
         ShopService service = new ShopServiceImpl();
-////        service.saveShops(new Shop("Bereke","Chuy"));
-//        //service.updateShopById(2L,new Shop("Dostor","Auezova"));
-//        System.out.println(service.getAllShop());
+//        service.saveShops(new Shop("Bereke","Chuy"));
+//        service.updateShopById(2L,new Shop("Dostor","Auezova"));
+//      System.out.println(service.getAllShop());
+//        service.deleteShopById(2L);
+//        service.getShopByProductsId(3L);
+
+
+
     }
 }
